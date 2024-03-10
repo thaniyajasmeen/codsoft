@@ -1,0 +1,147 @@
+/* Header styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Adjust logo color */
+}
+
+.nav-buttons a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.login-button, .signup-button {
+    background-color: #f7f3f3;
+    color: #222020;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('https://img.freepik.com/free-vector/gradient-wavy-grey-background_23-2149121735.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.cta-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #888;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Adjust logo color */
+}
+
+.nav-buttons a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+    background-color: #9c9a9a;
+    color: #fcfbfb; /* Adjust hover color */
+}
+
+
+.login-button, .signup-button {
+    background-color: #eceaea;
+    color: #1d1c1c;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login-button:hover, .signup-button:hover {
+    background-color: #555; /* Adjust hover background color */
+}
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #fcfdfd;
+}
+
+input:checked + .slider:before {
+    transform: translateX(20px);
+}
+.anm {
+    background-color: #200f0f;
+    color: #888;
+}
+.cta-button:hover {
+    background-color: #555;
+
+}
